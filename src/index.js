@@ -16,7 +16,6 @@ function addme(){
 }
 function delli(kto){
 	kto.parentElement.remove();
-	localStorage.clear();
 	savelist();
 }
 function savelist(){
